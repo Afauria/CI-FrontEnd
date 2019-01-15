@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "CI 系统前端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "babel src -d lib & next build",
+    "start": "next start"
+  },
+  "author": "Akiyama",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
